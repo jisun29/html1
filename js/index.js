@@ -1,7 +1,15 @@
-var array=['포도','사과','바나나','망고'];
-for(var i=0;i<array.length;i++){
-    alert(array[i]);
-}
+for (var i = 1; i <= 30; i++) {
+    if (i % 3 === 0 && i % 5 === 0) {
+      console.log("fizzbuzz");
+    } else if (i % 3 === 0) {
+      console.log("fizz");
+    } else if (i % 5 === 0) {
+      console.log("buzz");
+    } else {
+      console.log(i);
+    }
+  }
 
 
-
+window.addEventListener("resize notifyResize");
+function hand  
